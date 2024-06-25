@@ -1,6 +1,6 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-View demo here: [https://redesigned-umbrella.onrender.com/](https://redesigned-umbrella.onrender.com/)
+View demo here: [https://redesigned-umbrella.onrender.com](https://redesigned-umbrella.onrender.com)
 
 ## Available Scripts
 

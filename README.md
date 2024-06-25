@@ -2,6 +2,8 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 Ensure that environment variables are set.
 
+View demo here: [https://redesigned-umbrella.onrender.com/](https://redesigned-umbrella.onrender.com/)
+
 ## Available Scripts
 
 In the project directory, you can run:

@@ -1,6 +1,5 @@
 import messages from "../../messages";
-import OrderbookHeading from "./OrderbookHeading";
-import OrderbookItems from "./OrderbookItems";
+import OrderbookTable from "./OrderbookTable";
 
 interface Props {
   bids: any[];
@@ -12,21 +11,9 @@ function Orderbook(props: Props) {
 
   return (
     <div className="orderbook-table-container">
-      <table>
-        <OrderbookHeading title={messages.bids} category="bids" />
-        <tbody>
-          <OrderbookItems orders={bids} category="bids" />
-        </tbody>
-      </table>
-
+      <OrderbookTable heading={messages.bids} category="bids" orders={bids} />
       <div className="orderbook-table-divider" />
-
-      <table>
-        <OrderbookHeading title={messages.asks} category="asks" />
-        <tbody>
-          <OrderbookItems orders={asks} category="asks" />
-        </tbody>
-      </table>
+      <OrderbookTable heading={messages.asks} category="asks" orders={asks} />
     </div>
   );
 }
